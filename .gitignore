@@ -263,3 +263,4 @@ src/ApiDemo.Blazor.Server.Tiered/Logs/*
 
 # Use abp install-libs to restore.
 **/wwwroot/libs/*
+/src/ApiDemo.HttpApi.Host/appsettings.Development.json

@@ -1,6 +1,5 @@
 ﻿using ApiDemo.Localization;
 using Volo.Abp.AuditLogging;
-using Volo.Abp.BackgroundJobs;
 using Volo.Abp.FeatureManagement;
 using Volo.Abp.Identity;
 using Volo.Abp.Localization;
@@ -17,7 +16,6 @@ namespace ApiDemo;
 
 [DependsOn(
     typeof(AbpAuditLoggingDomainSharedModule),
-    typeof(AbpBackgroundJobsDomainSharedModule),
     typeof(AbpFeatureManagementDomainSharedModule),
     typeof(AbpIdentityDomainSharedModule),
     typeof(AbpOpenIddictDomainSharedModule),
